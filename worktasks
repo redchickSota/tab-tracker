@@ -1,2 +1,19 @@
 2/5 started implementing AuthenticationController.js 
-    used sequelize which controlls Database  
+    used sequelize which controlls Database
+
+3/5 finished part2
+
+axious rathar then vue-resource
+
+sequelize for database
+
+eslint for code validation
+
+axious async await
+関数の前につけてやることでasyncな関数内で処理終了するまで待ってくれる
+ちなみにasyncやawaitをつけないと、非同期に処理するため関数内に結果が入っていない為
+値はundefinedになる。
+
+validaton for email or password npm joi
+
+designing vuetify
