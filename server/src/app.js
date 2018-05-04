@@ -12,6 +12,7 @@ app.use(cors())
 
 require('./routes')(app)
 
+// sequelize.sync({force: true}) delete the table
 sequelize.sync()
   .then(() => {
     app.listen(config.port)
