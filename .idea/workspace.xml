@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40906b25-ae50-437e-8e97-3ae86c34f6aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/AuthenticationService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/AuthenticationService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/AuthenticationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/AuthenticationController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tabtracker.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/server/tabtracker.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worktasks" beforeDir="false" afterPath="$PROJECT_DIR$/worktasks" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,8 +28,8 @@
       <file leaf-file-name="worktasks" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worktasks">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="145">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -51,7 +37,7 @@
       <file leaf-file-name="AuthenticationController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/controllers/AuthenticationController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
+            <state relative-caret-position="349">
               <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
@@ -294,7 +280,7 @@
       <workItem from="1525229273864" duration="6120000" />
       <workItem from="1525314025520" duration="6976000" />
       <workItem from="1525343886186" duration="4727000" />
-      <workItem from="1525402414799" duration="5930000" />
+      <workItem from="1525402414799" duration="6446000" />
     </task>
     <task id="LOCAL-00001" summary="Notes of what Ive done">
       <created>1525235034403</created>
@@ -307,7 +293,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39478000" />
+    <option name="totallyTimeSpent" value="39994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
@@ -667,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -688,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -702,10 +674,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/controllers/AuthenticationController.js">
+    <entry file="file://$PROJECT_DIR$/server/src/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -716,10 +695,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/controllers/AuthenticationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/worktasks">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="145">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
