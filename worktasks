@@ -19,3 +19,123 @@ axious async await
 validation for email or password npm joi
 
 designing vuetify
+
+vuex
+Useful for Login ro change the status from the other components
+Vuex は Vue.js が公式で提供している状態管理用のエコシステムで拡張機能的なものです。
+
+状態管理について
+今までいくつかコンポーネントを作ってきましたが、親子関係の場合は props と $emit を使い、
+親子関係でない場合はイベントバスという空の Vue インスタンスを使いました。
+コンポーネントやネストが複雑になると一つ上に $emit で送信して
+またその上に $emit で送信してという苦行のバケツリレーがもれなく付いてきます。
+
+参照先を固定すればこの苦行が楽になる上にデータの整合性も保ちやすいというのが状態管理です。
+Vuex はイベントバスの上位互換のようなもので、
+簡単に言えば Vue アプリ上に仮想のデータベース（ストア/データ保管庫）を作り、
+データが必要な時はそれを参照してね、ただしデータを操作する時はストア専用ルートを通ってね。
+Vuex との約束だょ！という感じです。
+
+シンプルなストア構造
+const store = new Vuex.Store({
+  state: {
+    // 単純なテキストデータ
+    message: '初期メッセージ'
+  },
+  mutations: {
+    // メッセージの書き換え
+    setMessage(state, payload) {
+      state.message = payload
+    }
+  },
+  getters: {
+    // message をそのまま使用
+    message(state) { return state.message }
+  }
+})
+これはメッセージの内容をコンポーネントではなくストアに置いた場合のシンプルなストアの構造です。
+コンポーネントから次のようにメッセージを書き換えることができます。
+
+ストアのメッセージを書き換える
+this.$store.commit('setMessage', 'フォームとかで適当なメッセージに変更')
+これを実際に動かす前に上の図の名称を簡単に抑えておきましょう。
+
+ステート State
+実際の状態（最新のデータ）が入ったもの。 コンポーネントでいうデータのようなもの。
+ミューテーション以外から直接書き換えてはいけない。
+
+登録の仕方
+state: {
+  count: 0
+}
+コンポーネントからの使い方
+this.$store.state.count
+ミューテーション Miutation
+直接ステートを変更するメソッド。 非同期処理を含めることはできない。
+ミューテーションやアクションはイベントとイベントハンドラと似たような概念で、
+このメソッドを直接使用することはなく次のコミットを使用して呼び出します。
+
+登録の仕方
+mutations: {
+  mutationName(state, payload) {
+    /* ステートを変更する処理 */
+  }
+}
+payload はオプションの引数。
+
+コミット Commit
+ミューテーションを呼び出す命令。
+
+コンポーネントからの使い方
+this.$store.commit('mutationName')
+ネームスペースがある場合次のようにルートから他のモジュールを使用できます。
+
+commit('message/mutationName', null, { root: true })
+アクション Action
+非同期処理を含めることのできるメソッド。 API との通信して結果をコミットしたりコンポーネントに返すなど。
+ステートを操作したい場合はここからミューテーションにコミットします。
+
+登録の仕方
+actions: {
+  actionName({commit, dispatch, state, rootState, getters, rootGetters}, payload) {
+    /* コミットするデータを決める処理 */
+  }
+}
+payload はオプションの引数。
+
+引数から多くの情報を受け取れるため、ステート更新以外のこまごました処理は
+アクション内で済ませるのがいいでしょう。
+
+ディスパッチ Dispatch
+アクションを呼び出す命令。
+
+コンポーネントからの使い方
+this.$store.dispatch('actionName')
+ネームスペースがある場合次のようにルートから他のモジュールを使用できます。
+
+dispatch('message/actionName', null, { root: true })
+ゲッター Getter
+ステートを取得する際の処理。 ストア専用の算出プロパティ（computed）的なもの。
+算出プロパティと違い引数を使えるけどセッターは使えません。
+
+登録の仕方
+getters: {
+  count(state, getters, rootState) { ... }
+}
+登録の仕方（引数を使う場合）
+getters: {
+  count(state) {
+    return function(id) {
+      return state.list[id].count
+    }
+  }
+}
+// アロー関数を使うとスッキリ書ける
+getters: {
+  count: (state) => (id) => state.list[id].count
+}
+コンポーネントからの使い方
+this.$store.getters.count
+this.$store.getters.count(id)
+これ以外にもいくつかあったけど、まずはこの辺のルールを押さえておけば大丈夫そう。
+
