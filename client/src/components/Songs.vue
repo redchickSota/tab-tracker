@@ -7,7 +7,7 @@
           slot="action"
           class="cyan accent-2"
           light
-          small
+          medium
           absolute
           right
           middle>
