@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40906b25-ae50-437e-8e97-3ae86c34f6aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/ViewSong/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Songs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Songs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ViewSong.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/SongsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/SongsService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/SongsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/SongsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tabtracker.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/server/tabtracker.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worktasks" beforeDir="false" afterPath="$PROJECT_DIR$/worktasks" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,6 +28,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="worktasks" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/worktasks">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SongsService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/services/SongsService.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SongsController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SongsController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/controllers/SongsController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1131">
@@ -117,7 +115,6 @@
         <option value="$PROJECT_DIR$/client/src/components/Panel.vue" />
         <option value="$PROJECT_DIR$/client/src/App.vue" />
         <option value="$PROJECT_DIR$/client/src/components/CreateSong.vue" />
-        <option value="$PROJECT_DIR$/worktasks" />
         <option value="$PROJECT_DIR$/client/src/components/Songs.vue" />
         <option value="$PROJECT_DIR$/client/src/components/ViewSong.vue" />
         <option value="$PROJECT_DIR$/client/src/components/ViewSong/ViewSong.vue" />
@@ -132,6 +129,7 @@
         <option value="$PROJECT_DIR$/client/src/services/SongsService.js" />
         <option value="$PROJECT_DIR$/server/src/routes.js" />
         <option value="$PROJECT_DIR$/server/src/controllers/SongsController.js" />
+        <option value="$PROJECT_DIR$/worktasks" />
       </list>
     </option>
   </component>
@@ -157,7 +155,7 @@
       <path value="$PROJECT_DIR$/server/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="width" value="961" />
     <option name="height" value="1053" />
@@ -339,7 +337,7 @@
       <workItem from="1525402414799" duration="7440000" />
       <workItem from="1525488149015" duration="6692000" />
       <workItem from="1525753508008" duration="14769000" />
-      <workItem from="1525833012351" duration="7214000" />
+      <workItem from="1525833012351" duration="7228000" />
     </task>
     <task id="LOCAL-00001" summary="Notes of what Ive done">
       <created>1525235034403</created>
@@ -352,10 +350,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69663000" />
+    <option name="totallyTimeSpent" value="69677000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1053" extended-state="7" />
+    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24947916" />
@@ -595,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worktasks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
@@ -755,6 +746,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1131">
           <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worktasks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
