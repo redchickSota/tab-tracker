@@ -9,6 +9,35 @@
 
 9/5 finished part 5
 
+11/5 finished UI and forgot about log out staff
+     next time start from 30:20 part 6
+
+lodash debounce
+doesn't implement every single things.
+you can set the time then implement after that time
+in this project, I've used for searching
+
+watch: {
+    search (value) {
+      const route = {
+        name: 'songs'
+      }
+      if (this.search !== '') {
+        route.query = {
+          search: this.search
+        }
+      }
+      this.$router.push(route)
+    },
+    // so you can search by url
+    '$route.query.search': {
+      immediate: true,
+      handler (value) {
+        this.search = value
+      }
+    }
+  }
+
 axious rather then vue-resource
 
 sequelize for database
@@ -134,6 +163,9 @@ getters: {
     }
   }
 }
+
+
+Arrow Function
 // アロー関数を使うとスッキリ書ける
 getters: {
   count: (state) => (id) => state.list[id].count
