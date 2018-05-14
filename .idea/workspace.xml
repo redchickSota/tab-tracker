@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40906b25-ae50-437e-8e97-3ae86c34f6aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ViewSong/SongMetadata.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ViewSong/SongMetadata.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/seed/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/seed/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tabtracker.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/server/tabtracker.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worktasks" beforeDir="false" afterPath="$PROJECT_DIR$/worktasks" afterDir="false" />
-    </list>
+    <list default="true" id="40906b25-ae50-437e-8e97-3ae86c34f6aa" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -40,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookmarksController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookmarksController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/controllers/BookmarksController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="117">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -62,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/server/src/models/Bookmark.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -71,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/server/src/models/Song.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="14" lean-forward="true" selection-end-line="14" />
+              <caret line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -85,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="worktasks" pinned="false" current-in-tab="true">
+      <file leaf-file-name="worktasks" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worktasks">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -404,7 +390,7 @@
       <workItem from="1526121091266" duration="7763000" />
       <workItem from="1526137093748" duration="231000" />
       <workItem from="1526173262799" duration="1401000" />
-      <workItem from="1526264081967" duration="8839000" />
+      <workItem from="1526264081967" duration="9453000" />
     </task>
     <task id="LOCAL-00001" summary="Notes of what Ive done">
       <created>1525235034403</created>
@@ -417,7 +403,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99633000" />
+    <option name="totallyTimeSpent" value="100247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
@@ -748,7 +734,7 @@
     <entry file="file://$PROJECT_DIR$/server/src/models/Song.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="14" lean-forward="true" selection-end-line="14" />
+          <caret line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -756,13 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/controllers/BookmarksController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -776,7 +755,7 @@
     <entry file="file://$PROJECT_DIR$/server/src/models/Bookmark.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -801,6 +780,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/controllers/BookmarksController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
     </entry>
