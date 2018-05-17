@@ -15,10 +15,13 @@
 14/5 finished
      next time start from 1:08:00
 
+17/5 finished history list
+     next time start at 41:15 of part 7
+
 lodash debounce
 doesn't implement every single things.
 you can set the time then implement after that time
-in this project, I've used for searching
+in this project, I've used it for searching
 
 watch: {
     search (value) {
