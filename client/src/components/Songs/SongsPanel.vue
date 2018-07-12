@@ -44,7 +44,10 @@
           </v-btn>
         </v-flex>
 
-        <v-flex xs6>
+        <v-flex :class="{
+        xs3: !isUserLoggedIn,
+        xs6: isUserLoggedIn
+        }" >
           <img class="album-image" :src="song.albumImageUrl" />
         </v-flex>
       </v-layout>
@@ -54,12 +57,18 @@
 
 <script>
 import SongsService from '@/services/SongsService'
+import {mapState} from 'vuex'
 
 export default {
   data () {
     return {
       songs: null
     }
+  },
+  computed: {
+    ...mapState([
+      'isUserLoggedIn'
+    ])
   },
   watch: {
     '$route.query.search': {
@@ -74,22 +83,22 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .song {
-    padding: 20px;
-    height: 330px;
-    overeflow: hidden;
-  }
-  .song-title {
-    font-size: 30px;
-  }
-  .song-artist {
-    font-size: 24px;
-  }
-  .song-genre {
-    font-size: 18px;
-  }
-  .album-image {
-    width: 70%;
-    margin: 0 auto;
-  }
+.song {
+  padding: 20px;
+  height: 330px;
+  overeflow: hidden;
+}
+.song-title {
+  font-size: 30px;
+}
+.song-artist {
+  font-size: 24px;
+}
+.song-genre {
+  font-size: 18px;
+}
+.album-image {
+  width: 70%;
+  margin: 0 auto;
+}
 </style>

@@ -38,7 +38,7 @@ export default {
   },
   computed: {
     ...mapState([
-      'isUserLoggedIn',
+      'isUserLoggedIn'
     ])
   },
   async mounted () {
